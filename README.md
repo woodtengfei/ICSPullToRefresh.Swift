@@ -8,16 +8,15 @@ ICSPullToRefresh-Swift is a Swift version of [SVPullToRefresh](https://github.co
 
 ### CocoaPods
 
-CocoaPods (>= 0.36) adds supports for Swift and embedded frameworks. 
+CocoaPods adds supports for Swift(Support Swift 5.0 now) and embedded frameworks. 
 
 Add ```pod 'ICSPullToRefresh'``` to your ```Podfile```: 
 
 ```
-source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'ICSPullToRefresh', '~> 0.6'
+pod 'ICSPullToRefresh', :git => 'https://github.com/woodtengfei/ICSPullToRefresh.Swift'
 ```
 
 ### Carthage
@@ -25,7 +24,7 @@ pod 'ICSPullToRefresh', '~> 0.6'
 To integrate ```ICSPullToRefresh``` into your Xcode project using Carthage, specify it in your ```Cartfile```:
 
 ```
-github "iCodesign/ICSPullToRefresh" >= 0.6
+github "woodtengfei/ICSPullToRefresh" >= 0.6.1
 ```
 
 ### Manually
